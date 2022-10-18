@@ -1,0 +1,2 @@
+#run python script every minutes
+1 * * * 4  python3 /app/main.py >>/tmp/out.log 2>/tmp/err.log
